@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #41644A;
+}
+
+nav{
+    background-color: crimson;
+    text-align: center;
+}
+
+.menuBar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menuBar li{
+    position: relative;
+}
+
+.menuBar li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuBar li a:hover{
+    background-color: #FF6868;
+}
+
+.Submenu{
+    display: none;
+    position: absolute;
+    background-color: #FFEAA7;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover .Submenu {
+    display: block;
+}
+
+.Submenu li a{
+    padding: 10px 15px;
+}
+
+.Submenu li a:hover{
+    background-color: greenyellow;
+}
+
+
+
+
+/*Color Hunt(site para paleta de cores)
