@@ -1,0 +1,22 @@
+.main-element{
+    position: sticky; /*fixed-absolute-sticky*/
+    left: 10px;
+    bottom: 10px;
+    background-color: #FFED00;
+    color: #0F6292;
+    padding: 10px;
+}
+.sibling-element{
+    padding: 10px;
+    background-color: #0F6292;
+    color: #FFED00;
+}
+.parent-element{
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    background-color: #16FF00;
+}
+html{
+    height: 800px;
+}
